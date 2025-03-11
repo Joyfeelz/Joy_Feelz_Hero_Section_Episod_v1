@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen Rebirth | Hero Section</title>
+    <link rel="stylesheet" href="./assets/css/pen-rebirth-styles.css">
+</head>
+<body>
+
+    <header class="pen-rebirth-header">
+        <div class="pen-rebirth-container">
+            <h1 class="pen-rebirth-logo-later">Joy Feelz</h1>
+            <div id="pen-rebirth-container-later" class="pen-rebirth-container-later">
+                <h1 class="pen-rebirth-logo">Joy Feelz</h1>
+                <nav class="pen-rebirth-nav">
+                    <a href="#">Course</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Tutors</a>
+                    <a href="#">About</a>
+                </nav>
+
+                <a href="#" class="pen-rebirth-contact">Contact</a>
+                
+            </div>
+            <!-- Hamburger Menu Button (Right Side) -->
+            <div id="hamburger_1" class="pen-rebirth-hamburger-1" onclick="toggleMenu_1()">
+                <div class="pen-rebirth-bar"></div>
+                <div class="pen-rebirth-bar"></div>
+                <div class="pen-rebirth-bar"></div>
+            </div>
+            <!-- Hamburger Menu Button (Right Side) -->
+            <div id="hamburger_2" class="pen-rebirth-hamburger-2" onclick="toggleMenu_2()">
+                <div class="pen-rebirth-bar" style="background: red;"></div>
+                <div class="pen-rebirth-bar" style="background: red;"></div>
+                <div class="pen-rebirth-bar" style="background: red;"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="pen-rebirth-hero">
+        <div class="pen-rebirth-container">
+            <div class="pen-rebirth-text">
+                <h1>A new way to learn & grow your skills</h1>
+                <p>Join Joy Feelz to access various learning materials and professional guidance.</p>
+                <div class="pen-rebirth-buttons">
+                    <a href="#" class="pen-rebirth-btn-primary">Join Now</a>
+                    <a href="#" class="pen-rebirth-btn-secondary">Learn More</a>
+                </div>
+                <div class="pen-rebirth-stats">
+                    <div>
+                        <p><strong>15.2K</strong><br><span class="pen-rebirth-stats-later"> Active students</span></p>
+                    </div>
+                    <div>
+                        <p><strong >4.5K</strong><br><span class="pen-rebirth-stats-later"> Tutors</span></p>
+                    </div>
+                    <div>
+                        <p><strong>∞</strong><br><span class="pen-rebirth-stats-later"> Resources</span></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Image Container -->
+            <div class="pen-rebirth-image-container">
+                <img src="./assets/images/dev1.jpeg" class="pen-rebirth-img pen-rebirth-img-top" alt="Student 1">
+                <img src="./assets/images/dev2.jpeg" class="pen-rebirth-img pen-rebirth-img-right" alt="Student 2">
+                <img src="./assets/images/dev3.jpeg" class="pen-rebirth-img pen-rebirth-img-bottom" alt="Student 3">
+
+                <!-- Decorative Elements -->
+                <!--<span class="pen-rebirth-deco pen-rebirth-circle"></span>-->
+                <!--<span class="pen-rebirth-deco pen-rebirth-star"></span>-->
+                <!--<span class="pen-rebirth-deco pen-rebirth-icon"></span>-->
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/js/pen-rebirth-script.js"></script>
+    <script>
+        function toggleMenu_1() {
+            document.getElementById('pen-rebirth-container-later').style.display="block";
+            document.getElementById('hamburger_1').style.display="none";
+            document.getElementById('hamburger_2').style.display="flex";
+        } 
+        function toggleMenu_2() {
+            document.getElementById('pen-rebirth-container-later').style.display="none";
+            document.getElementById('hamburger_2').style.display="none";
+            document.getElementById('hamburger_1').style.display="flex";
+        }         
+    </script>
+</body>
+</html>
