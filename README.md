@@ -19,7 +19,7 @@ This is the first episode in a series of hero sections, with more coming soon! �
 ---
 
 ## 🔗 Live Demo  
-[![🌐 View Live Demo](https://img.shields.io/badge/View-Live%20Demo-brightgreen?style=for-the-badge)](https://penrebirth.github.io/Joy_Feelz_Hero_Section_Episod_v1/)
+[![🌐 View Live Demo](https://img.shields.io/badge/View-Live%20Demo-brightgreen?style=for-the-badge)](https://joyfeelz.github.io/Joy_Feelz_Hero_Section_Episod_v1/)
 
 ---
 
@@ -48,7 +48,7 @@ Joy_Feelz_Hero_Section_Episodes/
 2. **Open `index.html`** in your browser.  
 3. Customize it as needed.  
 
-[![Download Pen Rebirth Hero Section v1.0.0](https://img.shields.io/badge/📥%20Download%20Pen%20Rebirth%20Hero%20Section%20-v1.0.0-blue?style=for-the-badge)](https://github.com/PenRebirth/Pen_Rebirth_Hero_Section_Episod_v1/releases/tag/v1.0.0)
+[![Download Pen Rebirth Hero Section v1.0.0](https://img.shields.io/badge/📥%20Download%20Joy%20Feelz%20Hero%20Section%20-v1.0.0-blue?style=for-the-badge)](https://github.com/PenRebirth/Joy_Feelz_Hero_Section_Episod_v1/releases/tag/v1.0.0)
 
 ---
 
